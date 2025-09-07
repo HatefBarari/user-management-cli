@@ -16,11 +16,9 @@ Supports command aliases for faster usage
 🚀 Getting Started
 Prerequisites
 
-Node.js
- installed on your system
+Node.js installed on your system
 
-npm
- (comes with Node.js)
+npm (comes with Node.js)
 
 Installation
 
@@ -34,36 +32,34 @@ Install dependencies
 
 npm install
 
-
 Run the CLI
-
-node app.js
+node server.js
 
 📌 Available Commands
 ➕ Create a new user
-node app.js create --username="john" --email="john@example.com" --password="1234"
+node server.js create --username="john" --email="john@example.com" --password="1234"
 
 
 Aliases:
 
-node app.js c -u "john" -e "john@example.com" -p "1234"
+node server.js c -u "john" -e "john@example.com" -p "1234"
 
 📋 List all users
-node app.js list
+node server.js list
 
 
 Alias:
 
-node app.js l
+node server.js l
 
 ❌ Remove a user
-node app.js remove --username="john"
+node server.js remove --username="john"
 
 
 Aliases:
 
-node app.js r -u "john"
-node app.js rm -u "john"
+node server.js r -u "john"
+node server.js rm -u "john"
 
 🛠 Tech Stack
 
